@@ -1,11 +1,28 @@
-h1 {
-    text-align: center;
-    size: 60px;
-
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097A7;
+    --gris: #757575;
 }
-
-h2  {
-    size: 2rem;
-    color: red;
-
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px; /* 1 rem = 10 px*/
+    font-family: 'Krub', sans-serif;
+}
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+}
+.titulo span {
+    font-size: 2rem;
+}
+.nav-bg{
+    background-color: var(--secundario);
+}
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
 }
